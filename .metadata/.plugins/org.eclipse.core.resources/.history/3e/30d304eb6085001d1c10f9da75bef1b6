@@ -1,0 +1,15 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int negativniBroj = Integer.parseInt(
+				JOptionPane.showInputDialog("negativniBroj"));
+		System.out.print(negativniBroj);
+		
+	}
+
+}

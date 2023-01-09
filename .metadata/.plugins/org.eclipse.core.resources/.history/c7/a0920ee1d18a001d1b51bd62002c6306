@@ -1,0 +1,31 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int i = Integer.parseInt(
+				JOptionPane
+				.showInputDialog("Unesi prvi  broj")
+				);
+		int j = Integer.parseInt(
+				JOptionPane
+				.showInputDialog("Unesi drugi  broj")
+				);
+		for (i=0; i<=j;i++) {
+			if(i%2==0  && j
+					%2==0 ) {
+				int zbroj = i+j;
+				System.out.println(zbroj);
+			}
+			else {
+			System.err.println("nema zbroja");	
+			}
+			
+			
+		}
+	}
+
+}

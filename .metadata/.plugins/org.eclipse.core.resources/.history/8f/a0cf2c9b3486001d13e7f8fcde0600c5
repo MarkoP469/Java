@@ -1,0 +1,13 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int i = 7 % 2;
+		System.out.println(i);
+	}
+
+}

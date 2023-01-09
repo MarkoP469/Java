@@ -1,0 +1,21 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int i = Integer.parseInt(
+				JOptionPane.showInputDialog("unesi broj od 1 do 999"));
+		
+		if(i>0 && i<1000) {
+			float rez= i%10; 
+			System.out.println(rez);
+			} 
+		else {
+			System.out.println(i +" greska");
+			}
+	}
+
+}

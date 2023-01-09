@@ -1,0 +1,23 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int i = Integer.parseInt(
+				JOptionPane.showInputDialog("prviBroj"));
+		int j = Integer.parseInt(
+				JOptionPane.showInputDialog("drugiBroj"));
+		int zbroj = i+j;
+		int razlika = i-j;
+		if(i%2==0 &&j %2==0) {
+			System.out.print(zbroj);
+		}
+		else {
+			System.out.print(razlika);
+		}
+	}
+
+}

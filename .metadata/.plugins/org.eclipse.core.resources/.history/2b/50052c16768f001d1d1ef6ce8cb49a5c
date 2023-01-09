@@ -1,0 +1,40 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int a[] = new int[3];
+		int zbroj=0;
+		int min = 0;
+		int max = 0;
+		for(int i=0 ;i<a.length;i++) {
+			a[i] = Integer.parseInt(
+					JOptionPane.showInputDialog(
+							"Unesi " + (i+1) + ". broj")
+					);
+			
+			 zbroj+=a[i];
+			 if (min>a[i]) {
+				 min = a[i];
+				}
+			 
+			 if (max<=a[i]) {
+				 max = a[i];
+				 
+				}
+			
+			}
+		System.out.println("zbroj niza = " + zbroj);
+		System.out.println("Najveci broj = " + max);	
+		System.out.println("Najmanji broj =" + min);
+	}
+
+}
+
+	
+
+
+

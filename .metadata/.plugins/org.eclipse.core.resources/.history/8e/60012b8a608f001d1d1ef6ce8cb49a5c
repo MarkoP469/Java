@@ -1,0 +1,23 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int niz[] = new int[3];
+		int zbroj=0;
+		for(int i=0;i<niz.length;i++) {
+			niz[i] = Integer.parseInt(
+					JOptionPane.showInputDialog(
+							"Unesi " + (i+1) + ". broj")
+					);
+			
+			 zbroj+=niz[i];
+			 System.out.println(zbroj);
+			}
+		
+	}
+
+}

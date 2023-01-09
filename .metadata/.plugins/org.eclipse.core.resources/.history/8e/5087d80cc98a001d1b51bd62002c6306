@@ -1,0 +1,15 @@
+package edunova01;
+
+import javax.swing.JOptionPane;
+
+public class varijabla {
+
+	public static void main(String[] args) {
+		
+		int a = 2, b=3;
+		
+		float r = a/(float)b;
+		System.out.println(r);
+	}
+
+}
